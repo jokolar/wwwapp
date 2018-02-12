@@ -1,0 +1,27 @@
+
+/* info boxy */
+.info_box {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 53px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-position: 3px 3px;
+  text-align: left;
+  min-height: 43px;
+  background-repeat: no-repeat;
+  color: black;
+}
+.info_box.ok {
+  background-color: #E2F8DE;
+  background-image: url(images/accepted_48.png);
+  border: 1px solid #7AD975;
+}
+.info_box.abort {
+  background-color: #FFE7E6;
+  background-image: url(images/abort_48.png);
+  border: 1px solid #FF4F4A;
+}
